@@ -6,6 +6,8 @@ import liga2 from "./assets/cielo.jpg"
 import gabb from "./assets/gabbani.jpg"
 import s883 from "./assets/883.jpg"
 import daniele from "./assets/daniele.jpg"
+import volo from "./assets/volo.jpg"
+import mengoni from "./assets/mengoni.jpg"
 
 export const songList : IRowData[] = [
     {
@@ -43,5 +45,17 @@ export const songList : IRowData[] = [
         title: "Napule è...",
         subTitle: "Pino Daniele",
         imgUrl: daniele
+    },
+    {
+        id: 7,
+        title: "Due vite",
+        subTitle: "Marco Mengoni",
+        imgUrl: mengoni
+    },
+    {
+        id: 8,
+        title: "Grande amore",
+        subTitle: "Il volo",
+        imgUrl: volo
     }
 ];
