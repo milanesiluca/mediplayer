@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+.navbar {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: crimson;
+    color:aliceblue;
+    font-family: "Poiret One", sans-serif;
+}

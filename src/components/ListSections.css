@@ -1,0 +1,61 @@
+.section-body {
+    background-color: rgb(8, 34, 68);
+    width: 50%;
+    
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    min-width: 35%;
+    justify-content: left;
+    padding-right: 1rem;
+}
+
+.row-container{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    
+}
+
+.white-row{
+    height: 1px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.play-button{
+    padding: 1rem;
+}
+
+
+.title{
+    font-size: 26px;
+    padding-left: 0.5rem;
+    margin-bottom: 3px;
+    color: aliceblue;
+}
+
+.sub-title{
+    font-size: 18px;
+    padding-left: 0.5rem;
+    margin-top: 0;
+    color: aliceblue;
+}
+
+.img-container {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding-left: 1rem;
+}
+
+.album-img {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    padding: 0.5rem;
+    
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poiret+One&family=Spirax&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+.player-section {
+    background-color: rgb(249, 249, 251);
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.player-section .song-title {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    margin-bottom: 1px;
+    padding-bottom: 0px ;
+}
+
+.player-section .artist {
+    font-family: "Poiret One", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 1px;
+}
+
+.player-section .main-section{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-section .album-pic {
+    display: flex;
+    justify-content: center;
+    max-width: 225px;
+    max-height: 225px;
+    
+}
+
+.control-section {
+    width: 70%;
+}

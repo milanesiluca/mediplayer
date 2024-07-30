@@ -1,0 +1,53 @@
+
+
+.buttons-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: crimson;
+    border-radius: 30px;
+}
+
+.setup-button{
+    max-width: 20px;
+    max-height: 20px;
+    color: aliceblue;
+}
+
+.back-forward-button {
+    width: 100%;
+    height: 100%;
+}
+
+
+.btc{
+    background-color: transparent;
+    border: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.btp {
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    border: 0;
+    
+}
+
+.bt {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 0;
+}
+
+.play-group {
+    display: flex;
+    background-color: rgb(8, 34, 68);;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
