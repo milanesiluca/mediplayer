@@ -32,11 +32,3 @@ export function PlayList({ data }: IListSectionProps) : ReactElement {
 }
 
 
-var id = -1;
-const row = document.querySelector(".row-container");
-row?.addEventListener("click", () => {
-    id = parseInt(row.id)
-    const filterObj = songs.filter((id) => id)[0];
-    
-});
-
