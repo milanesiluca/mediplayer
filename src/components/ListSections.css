@@ -1,6 +1,13 @@
 .section-body {
     background-color: rgb(8, 34, 68);
     width: 50%;
+    height: 130px;
+}
+
+.list-table {
+    width: 100%;
+    height: 200px;
+    overflow: auto;
 }
 
 .row {
