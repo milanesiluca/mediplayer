@@ -11,24 +11,22 @@ var songs: IRowData[];
 export function PlayList({ data }: IListSectionProps) : ReactElement {
     songs = data;
     return (
-        <table className="section-body">
-            <tbody className="list-table">
-                {data.map((listRow) => (
-                    <tr className="row-container" id={listRow.id.toString()}>
-                        <div className="play-button">
-                            <span className="material-symbols-outlined">play_circle</span>
-                        </div>
-                        <div className="row">
-                            <p className="title">{listRow.title}</p>
-                            <p className="sub-title">{listRow.subTitle}</p>
-                        </div>
-                        <span className="img-container">
-                            <img className="album-img" src={listRow.imgUrl} alt="album" />
-                        </span>
-                    </tr>
-                ))}
-            </tbody>                    
-        </table>
+        <section className="section-body">
+            {data.map((listRow) => (
+                <div className="row-container" key={listRow.id.toString()}>
+                    <div className="play-button">
+                        <span className="material-symbols-outlined">play_circle</span>
+                    </div>
+                    <div className="row">
+                        <p className="title">{listRow.title}</p>
+                        <p className="sub-title">{listRow.subTitle}</p>
+                    </div>
+                    <span className="img-container">
+                        <img className="album-img" src={listRow.imgUrl} alt="album" />
+                    </span>  
+                </div>
+            ))}                       
+        </section>
     );
 
 }

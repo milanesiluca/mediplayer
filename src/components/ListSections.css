@@ -1,13 +1,7 @@
 .section-body {
     background-color: rgb(8, 34, 68);
     width: 50%;
-    height: 130px;
-}
-
-.list-table {
-    width: 100%;
-    height: 200px;
-    overflow: auto;
+    height: 600px;
 }
 
 .row {
@@ -21,8 +15,7 @@
 .row-container{
     display: flex;
     align-items: center;
-    color: aliceblue;
-    
+    color: aliceblue;    
 }
 
 .white-row{
